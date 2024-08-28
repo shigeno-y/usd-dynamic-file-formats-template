@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: MIT
+
+#ifndef SHIGENOY_USDDYNAMICFILEFORMATS_PLUGIN_VERSION_HPP_INCLUDED
+#define SHIGENOY_USDDYNAMICFILEFORMATS_PLUGIN_VERSION_HPP_INCLUDED
+
+#include <string>
+
+namespace shigenoy::usd_dynamic_file_formats {
+const std::string plugin_commit_hash{"@GIT_HASH@"};
+const std::string plugin_branch_name{"@GIT_BRANCH@"};
+}  // namespace shigenoy::usd_dynamic_file_formats
+#endif

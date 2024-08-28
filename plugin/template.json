@@ -1,0 +1,36 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "SdfMetadata": {
+                    "someParam": {
+                        "type": "uint",
+                        "default": 0,
+                        "displayGroup": "Core",
+                        "appliesTo": ["prims", "layers"],
+                        "documentation:": "some param"
+                    }
+                },
+                "Types": {
+                    "UsdDynamicFileFormats": {
+                        "bases": [
+                            "SdfFileFormat"
+                        ],
+                        "displayName": "USD Dynamic File Formats Template",
+                        "extensions": [
+                            "o_o"
+                        ],
+                        "formatId": "o_o",
+                        "primary": true,
+                        "target": "usd"
+                    }
+                }
+            },
+            "LibraryPath": "../$<TARGET_FILE_NAME:@PROJECT_NAME@>",
+            "Name": "@PROJECT_NAME@",
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library"
+        }
+    ]
+}
